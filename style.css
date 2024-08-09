@@ -1,0 +1,284 @@
+/*general*/
+.pif
+{
+    overflow-y:scroll;
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+}
+.icIndex
+{
+    width: 90px;
+    display: inline;
+}
+.ligne
+{
+    background: linear-gradient(45deg ,white,rgb(92, 92, 92),rgb(222, 222, 222),rgb(73, 73, 73),rgb(194, 193, 193),rgb(92, 92, 92),white,rgb(194, 193, 193),rgb(92, 92, 92),white,rgb(92, 92, 92),rgb(141, 141, 141),rgb(37, 37, 37));
+    background-size: 400%;
+}
+p
+{
+    font-size: 20px;
+}
+.icone
+{
+    width: 85px;
+    height: 60px;
+    cursor: pointer;
+}
+.lien
+{
+    text-decoration: none;
+    color: white;
+}
+.liens
+{
+    text-decoration: none;
+    color:white;
+    line-height: 1.5;
+}
+hr
+{
+    font-weight: bolder;
+    box-shadow: 0px 0px 0px 5px white;
+}
+.hruni
+{
+box-shadow: none;
+}
+.lienfooter:hover
+{
+    border-bottom: 1px solid white ;
+    color: #dc3545;
+    transition: 1.5s;
+    text-shadow: 0px 0px 3px #464545;
+}
+/*header*/
+
+.header1
+{
+    position: sticky;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.header2
+{
+    position: sticky;
+    left: 0;
+    top: 60px;
+    z-index: 1;
+}
+.header3
+{
+    position: sticky;
+    left: 0;
+    top: 0px;
+    z-index: 1;
+}
+.menu
+{
+    max-width: 40px;
+    max-height: 40px;
+}
+
+.header2 ul li .lien:hover
+{
+    color: #dc3545;
+    transition: 1.5s;
+    text-shadow: 0px 0px 3px #464545;
+}
+.header3 ul li .liens:hover
+{
+    color: #dc3545;
+    transition: 1.5s;
+    text-shadow: 0px 0px 3px #464545;
+    text-decoration: underline;
+}
+.header3 ul li .lien:hover
+{
+    color: #dc3545;
+    transition: 1.5s;
+    text-shadow: 0px 0px 3px #464545;
+}
+.menu1
+{
+    float: right;
+    margin: 15px;
+}
+
+.titreIntro
+{
+    text-decoration: underline;
+}
+/*main*/
+.page
+{
+    height: 100vh;
+}
+.imgLoupe
+{
+    height: 600px;
+    width:500px ;
+}
+.paragrapheimg
+{
+    padding:10px;
+    font-size: 42px;
+    font-weight: bolder;   
+}
+.icone2
+{
+    width: 35px;
+    cursor: pointer;
+}
+.sac
+{
+    width:400px;
+}
+
+/*formulaire*/
+.form1
+{
+    min-width: 175px;
+}
+.formt
+{
+    min-width: 330px;
+   
+}
+.btnc:hover
+{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+.labs
+{
+    font-size: 25px;
+}
+div .inputG
+{
+    
+    min-width: 65px;
+}
+.lab
+{
+    width: 250px;
+    font-size: 25px;
+}
+.lab1
+{
+    width: 250px;
+    font-size: 20px;
+}
+.inputForm
+{
+    border: none;
+    max-width: 300px;
+    font-size: 20px;
+    height: 40px;
+}
+.tail
+{
+    height: 100px;
+}
+.tail1
+{
+    height: 70px;
+    display: block;
+    text-align:  center;
+}
+.contContact
+{
+    width: 75%;  
+}
+
+.iconef
+{
+    width: 100px;
+    height: 60px;
+}
+.heads
+{
+    padding: none;
+}
+.ti
+{
+    min-width: 120px
+}
+.iconeA
+{
+    width: 75px;
+    height: auto;
+    cursor: pointer;
+    position: fixed;
+    left:88% ;
+    bottom: 60%;
+}
+.iconeA:hover
+{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+.menu1:hover
+{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+/*Main informatique */
+#demo, #demo1,#demo2,#demo4,#demo3,#demo5,#demo6,.xeno
+{
+    max-height: 500px;
+    min-width: 220px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.IA
+{
+    max-width: 500px;
+    min-width: 250px;
+}
+
+
+.iap
+{
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    float: left;
+}
+.IA:hover
+{
+    transform: scale(1.05);
+    transition: 400ms;
+}
+.bdg
+{
+    height: 90px; 
+    width: 50px;
+}
+/*main sante*/
+.xeno:hover
+{
+    transform: scale(1.01);
+    transition: 500ms;
+}
+/*footer*/
+.ligne1
+{
+    margin-top:30px ;
+}
+div .section1
+{
+    height: 640px;
+    transition:6s;
+}
+.icone1
+{
+    width: 60px;
+    margin-right: 5px;
+}
+.photon
+{
+    cursor: pointer;
+}

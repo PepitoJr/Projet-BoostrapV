@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap-5.3.3-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div >
+        <section class="d-flex justify-content-center align-items-center bg-danger header1 rounded-bottom">
+            <div class="icIndex">
+                <img src="./image/logorouge.png" class=" icone" alt="Mon logo">
+            </div>
+            <div class="flex-grow-1 d-flex justify-content-end align-items-center  ti">
+                    <p class="btn btn-dark btn-sm text-white"> Abonne-toi</p>
+                    <p class="align-items-center">
+                        <img class="icone2 mx-1" src="./icones/profile0.png" alt="">
+                    </p>
+            </div>
+            <form class="projet me-4 ms-4 mb-2 d-md-block d-lg-block d-none" action="index.html">
+                <input type="text" class="rounded p-1" placeholder="recherche.." name="search">
+                <button type="submit" class="rounded"><i class="fa fa-search"></i></button>
+            </form>
+            <!-- Offcanvas Sidebar -->
+            <div class="offcanvas offcanvas-start  bg-dark bg-opacity-75 w-100 " id="demo">
+                <div class="offcanvas-header">
+                    
+                    <ul class="list-inline mx-auto d-block ">
+                        <li class="list-inline-item h6 ">
+                            <form class="projet me-2 ms-2 mb-1 mt-1" action="index.html">
+                                <input type="text" class="rounded p-1" placeholder="recherche.." name="search">
+                                <button type="submit" class="rounded"><i class="fa fa-search"></i></button>
+                            </form>
+                        </li>
+                    </ul>
+                <button type="button" class="btn-close  btn-close-white text-reset" data-bs-dismiss="offcanvas"></button>
+                </div>
+                <div class="offcanvas-body mx-auto d-block">
+                    <ul class="d-flex flex-column">
+                        <li class="list-inline-item h2 mx-5"><a href="index.html" class="lien">Home</a></li>
+                        <li class="list-unstyled h2 mx-5"><a href="sante.html" class="liens ">Sante</a></li>
+                        <li class="list-unstyled h2 mx-5"><a href="informatique.html" class="liens ">Informatique</a></li>
+                        <li class="list-unstyled h2 mx-5"><a href="transport.html" class="liens ">Transport</a></li>
+                        <li class="list-unstyled h2 mx-5"><a href="Le_WEB.html" class="liens ">Le WEB</a></li>
+                        <li class="list-unstyled h2 mx-5"><a href="contact.html" class="liens ">Contact</a></li>  
+                    </ul>
+                </div>
+            </div>              
+            <!-- Button to open the offcanvas sidebar -->
+            <button class="btn btn-outline-danger btn-sm rounded menu1 d-lg-none d-md-none d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+            <img src="./icones/menu2.png" class="menu btnc d-lg-none d-md-block"  alt="le menu"></button>
+        </section>
+        <section class="container-fluid page ">
+            <div class="card text-bg-dark">
+                <img src="./image/font.jpeg" class="card-img" alt="...">
+                <div class="card-img-overlay">
+                  <h5 class="card-title text-center display-3 h3  titreIntro">Introduction:</h5>
+                  <p class="card-text w-100 display-5">&nbsp;&nbsp; Ce site vous presentes les nouvelles inventions ou innnovations dans plusieurs domaines(sante, transport, informatique,cuisine).</p>
+                </div>
+              </div>
+           
+        </section>
+        <section class="container-fluid">
+            <div class="container border-top border-1 pt-4 ">
+               
+                    <header class="header2">
+                        <ul class="list-lg-inline list-md-inline d-lg-block d-md-block text-center text-white bg-dark rounded d-none">
+                            <li class="list-inline-item h5 mx-3 p-2"><a href="sante.html" class="lien">Sante</a></li>
+                            <li class="list-inline-item h5 mx-3 p-2"><a href="informatique.html" class="lien">Informatique</a></li>
+                            <li class="list-inline-item h5 mx-3 p-2"><a href="transport.html" class="lien">Transport</a></li>
+                            <li class="list-inline-item h5 mx-3 p-2"><a href="Le_WEB.html" class="lien">Le WEB</a></li>
+                            <li class="list-inline-item h5 mx-3 p-2"><a href="contact.html" class="lien">Contact</a></li>
+                        </ul>
+                        
+                    </header>
+            
+                <div class="container border border-lg-dark border-md-none border-1 w-75 rounded mb-lg-4 d-lg-block d-md-block d-none imgLoupe  d-lg-flex d-md-flex flex-row">
+                       <img class="img-fluid w-50 h-100 d-lg-block d-none rounded" src="./image/loupe.jpeg" alt="">
+                       <p class="d-lg-block d-md-block  d-none paragrapheimg bg-danger text-white rounded">Nous sommes a la recherche de nouvelles innovations, Contactez nous pour participer a ce mouvement. 
+                        <span class="d-block text-center"><a href="contact.html" class="btn btn-dark text-white">Cliquez ici</a></span></p>
+                </div>
+            </div>
+        </section>
+        <section class="container-fluid footer bg-dark rounded text-white p-3">
+            <div class="text-center mt-5 mb-5">
+                <hr class="w-25  d-lg-inline-block d-md-inline-block d-none">
+                <h1 class="d-inline text-center p-2">Contactez-nous...</h1>
+                <hr class="w-25  m-10 d-lg-inline-block d-md-inline-block d-none">
+            </div>
+            <div class="row ligne1  text-center">
+                <div class="col"><img class="icone1" src="./icones/youtube.png" alt=""><a  class="lien lienfooter" href="https:\\youtube.com">Youtube</a></div>
+                <div class="col"><img class="icone1" src="./icones/whatsapp.png" alt=""><a class="lien lienfooter"  href="https:\\whatsapp.com">whatsapp</a></div>
+                <div class="col"><img class="icone1" src="./icones/pinterest.png" alt=""><a class="lien lienfooter"  href="https:\\Pinterest.com">Pinterest</a></div>
+            </div>
+            <div class="row ligne1 text-center">
+                <div class="col"><img class="icone1" src="./icones/ln.png" alt=""> <a class="lien lienfooter"  href="https:\\Linkedin.com">Linkdin</a></div>
+                <div class="col"><img class="icone1" src="./icones/yahoo.png" alt=""> <a class="lien lienfooter"  href="https:\\Yahoo.com">Yahoo</a></div>
+                <div class="col"><img class="icone1" src="./icones/face.png" alt=""> <a  class="lien lienfooter" href="https:\\Facebookn.com">FaceBook</a></div>
+            </div>
+            
+                <hr class="hruni">
+            
+            <small class="w-75 d-block mx-auto mt-3 text-center ">Copyright © 2024 Photon.Jr Tous droits réservés.</small>
+        </section>
+    </div>
+    <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+</body>
+</html>
