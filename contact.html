@@ -26,13 +26,13 @@
             <button type="submit" class="rounded"><i class="fa fa-search"></i></button>
         </form>
         <!-- Offcanvas Sidebar -->
-        <div class="offcanvas offcanvas-start bg-opacity-75 bg-dark w-100 " id="demo">
+        <div class="offcanvas offcanvas-start bg-opacity-75 bg-dark w-100 " id="demop">
             <div class="offcanvas-header">
                 
                 <ul class="list-inline mx-auto d-block ">
                     <li class="list-inline-item h6 ">
                         <form class="projet me-2 ms-2 mb-1 mt-1" action="index.html">
-                            <input type="text" class="rounded p-1" placeholder="recherche.." name="search">
+                            <input type="text" class="rounded p-1" placeholder="recherche.." name="search" required>
                             <button type="submit" class="rounded"><i class="fa fa-search"></i></button>
                         </form>
                     </li>
@@ -51,9 +51,14 @@
             </div>
         </div>              
         <!-- Button to open the offcanvas sidebar -->
-        <button class="btn  rounded menu1 d-lg-none d-md-none btn-sm d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#demo">
+        <button class="btn  rounded menu1 d-lg-none d-md-none btn-sm d-block" type="button" data-bs-toggle="offcanvas" data-bs-target="#demop">
         <img src="./icones/menu2.png" class="menu btnc d-lg-none d-md-block"  alt="le menu"></button>
     </section>
+    <div class=" iconeaa">
+        <a href="index.html">
+            <img src="./icones/home1.png" class="iconeA d-lg-block  d-md-block  d-none bg-danger rounded-pill p-1" alt="accueil">
+        </a>
+    </div>
     <div class="container borderd d-flex justify-content-center align-items-center mt-5 formt">
         <div class="contContact border p-3 bg-danger bg-opacity-10 rounded shadow">
             <div class="d-flex justify-content-center mb-3">
@@ -67,17 +72,17 @@
                         <div class="tail">
                             <label class="lab d-lg-block d-md-block d-none "  for="nom">Nom:</label>
                             <label class="lab1 d-lg-none d-md-none d-block "  for="nom">Nom:</label>
-                            <input type="text" class="inputForm rounded p-2 w-75" placeholder="Fotio Junior" name="nom" id="nom">
+                            <input type="text" class="inputForm rounded p-2 w-75" placeholder="Fotio Junior" name="nom" id="nom" required>
                         </div>
                         <div class="tail">
                             <label class="lab d-lg-block d-md-block d-none "  for="mail">E-mail:</label>
                             <label class="lab1 d-lg-none d-md-none d-block "  for="mail">E-mail:</label>
-                            <input type="mail" class="inputForm rounded p-2 w-75" placeholder="Pepito.xmail.com"id="mail" name="mail">
+                            <input type="mail" class="inputForm rounded p-2 w-75" placeholder="Pepito.xmail.com"id="mail" name="mail" required>
                         </div>
                         <div class="tail">
                             <label class="lab d-lg-block d-md-block d-none "  for="age">Age:</label>
                             <label class="lab1 d-lg-none d-md-none d-block "  for="age">Age:</label>
-                            <input type="text" class="inputForm rounded p-2 w-75" placeholder="21..." id="age" name="age">
+                            <input type="text" class="inputForm rounded p-2 w-75" placeholder="21..." id="age" name="age" required>
                         </div>
                    </div>
                     <div class="col d-flex flex-column " >
@@ -85,7 +90,7 @@
                             <label  class="labs d-lg-block d-md-block d-none  " for="genre">Genre:</label>
                             <label  class="lab1 d-lg-none d-md-none d-block  " for="genre">Genre:</label>
                         </div>
-                        <div class="d-flex flex-lg-row flex-md-col flex-column tail" >
+                        <div class="d-flex flex-lg-row flex-md-col flex-column tail">
                             <div class="w-50">
                                 <label class="labs d-lg-inline-block d-md-inline-block d-none " for="M">M:</label>
                                 <label class="labs d-lg-none d-md-none d-inline-block " for="M">M:</label>
@@ -100,17 +105,21 @@
                         <div class="tail">
                             <label for="telephone" class="labs d-lg-block d-md-block d-none">Tel:</label>
                             <label for="telephone" class="labs  d-lg-none d-md-none d-block ">Tel:</label>
-                            <input type="tel"name="telephone" id="telephone" class="inputForm rounded  w-75 p-2 "  placeholder="3847854672">
+                            <input type="tel"name="telephone" id="telephone" class="inputForm rounded  w-75 p-2 "  placeholder="3847854672" required>
                         </div> 
                     </div>                     
                </div>
-               <div class="tail1">
-                    <input class="btn btn-danger btn-lg " type="submit" value="Envoyez">
-                </div>            
-              
             </form>
-        </div>
+            <div class="tail1">
+                <input class="btn btn-danger btn-lg " type="submit" value="Envoyez" required>
+            </div>
+            <div class="alert alert-success alert-dismissible ">
+                Le formulaire a été soumis avec succès.<button class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
+            </div> 
+        </div> 
     </div>
     <script src="./bootstrap-5.3.3-dist/js/bootstrap.js"></script>
+    <script src="jquery-3.7.1.min.js"></script>
+    <script src="jquery.js"></script>
 </body>
 </html>
